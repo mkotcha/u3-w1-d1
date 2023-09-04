@@ -1,3 +1,9 @@
-const ButtonComponent = props => <button className="btn btn-primary w-50">{props.buttonText}</button>;
+import Button from "react-bootstrap/Button";
+
+const ButtonComponent = props => (
+  <Button variant="primary" className="w-50">
+    {props.buttonText}
+  </Button>
+);
 
 export default ButtonComponent;
