@@ -1,3 +1,3 @@
-const ButtonComponent = props => <button>{props.buttonText}</button>;
+const ButtonComponent = props => <button className="btn btn-primary">{props.buttonText}</button>;
 
 export default ButtonComponent;
